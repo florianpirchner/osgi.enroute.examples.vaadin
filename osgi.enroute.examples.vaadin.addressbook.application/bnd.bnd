@@ -11,6 +11,9 @@ Private-Package: osgi.enroute.examples.vaadin.addressbook.application
 EnRoute-Application: 	osgi.enroute.examples.vaadin.addressbook
 JPM-Command:			addrssb
 
+-privatepackage: \
+	osgi.enroute.examples.vaadin.addressbook.application
+
 -includeresource: \
 	{readme.md}, \
 	{configuration=configuration}

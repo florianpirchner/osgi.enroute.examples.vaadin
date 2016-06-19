@@ -17,10 +17,10 @@ Require-Capability: \
 	compile-only
 
 -buildpath: \
-	osgi.enroute.base.api;version=1.0, \
 	com.vaadin.server,\
 	com.vaadin.shared,\
-	org.jsoup
+	org.jsoup,\
+	osgi.enroute.base.api
 
 -testpath: \
 	osgi.enroute.junit.wrapper;version=4.12
